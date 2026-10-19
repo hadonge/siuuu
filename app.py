@@ -165,3 +165,4 @@ for idx, group_name in enumerate(['㉮', '㉯', '㉰']):
 
 # 누적 관객 평균이 큰 묶음 순서대로 ㉮, ㉯, ㉰ 매핑
 avg_audi_per_cluster = df.groupby('cluster')['total_audi'].mean().sort_
+
